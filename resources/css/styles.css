@@ -1,0 +1,156 @@
+ /* body {
+  background-image: linear-gradient(#fffccb,#fbe3e3, #dbccbd,#dbf1ff, #c4d6d3);
+   background-attachment: fixed;
+    /* background-image: url("./image/WZ1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+    }*/
+
+ body {
+     background-image: linear-gradient(#fffccb, #fbe3e3, #dbccbd, #dbf1ff, #c4d6d3);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+
+ footer {
+     background-color: #222;
+     height: 3.5rem;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100vw;
+ }
+
+ footer * {
+     color: #f8f8f8;
+ }
+
+
+ .admin-view #admin-area {
+     min-height: 100vh;
+ }
+
+ .admin-view .admin-links {
+     background-color: #0e1013;
+ }
+
+ .admin-view .admin-links * {
+     background-color: #0f1113;
+ }
+
+ .admin-view .admin-links li {
+     color: #fff;
+     border-color: #fff;
+ }
+
+ .admin-view .admin-links .list-group-item {
+     border-bottom: 1px solid #fff;
+ }
+
+
+ .admin-view .admin-links li a {
+     display: block;
+     color: #fff;
+     border-color: #fff;
+     text-decoration: #fff;
+     transition: opacity .5s;
+ }
+
+ .admin-view .admin-links li a:hover {
+     opacity: .7;
+ }
+
+ #userInputContainer>div {
+     width: 30%;
+     margin-right: 1rem;
+ }
+
+
+ @media only screen and (max-width: 768px) {
+     .login {
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+
+
+
+
+
+ }
+
+ form>div>button:hover {
+     transition: opacity .7s;
+     cursor: pointer;
+ }
+
+
+
+
+ .log1 {
+     width: 40%;
+     margin: inherit;
+     justify-content: center;
+     align-items: center;
+     height: auto;
+     width: fit-content;
+
+ }
+
+ .check-labelre {
+     margin-right: 1%;
+ }
+
+ input,
+ textarea,
+ button {
+
+     display: block;
+     min-width: 45%;
+     justify-content: left;
+     font-size: 1rem;
+     padding: 0.375rem 0.75rem;
+     font-weight: 400;
+     line-height: 1.5;
+     border-radius: 12px;
+     background-clip: padding-box;
+     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+ }
+
+ button {
+     background-color: #6d788b;
+     border: none;
+ }
+
+ .login {
+     background: #191c24;
+     color: #6d788b;
+     padding: 3%;
+     border-radius: 14px;
+     font-weight: bold;
+     width: inherit;
+
+
+ }
+
+ .back1 {
+
+     background: linear-gradient(110deg, #f5c2e6 60%, #ff6eb6 60%);
+ }
+
+ .back2 {
+
+     background: linear-gradient(110deg, #18c0f485 60%, #4b84ff 60%);
+ }
+
+ .back3 {
+
+     background: linear-gradient(110deg, #453bfd54 60%, #ae4bff8f 60%);
+ }
+
+ .back4 {
+
+     background: linear-gradient(110deg, #f8acac 60%, #ffed4b 60%);
+ }
